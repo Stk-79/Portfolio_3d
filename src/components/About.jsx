@@ -7,6 +7,12 @@ import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
 
+const defaultOptions = {
+  reverse: false, // reverse the tilt direction
+  transition: true, // Set a transition on enter/exit.
+  axis: null, // What axis should be disabled. Can be X or Y.
+};
+
 const ServiceCard = ({ index, title, icon }) => {
   return (
     <Tilt className="xs:w-[250px] w-full">
@@ -16,9 +22,13 @@ const ServiceCard = ({ index, title, icon }) => {
       >
         <div
           options={{
-            max: 45,
+            reverse: false,
+            max: 95,
             scale: 1,
-            speed: 450,
+            // perspective: 1000,
+            // transition: true,
+            easing: "cubic-bezier(.03,.58,.98,.03)",
+            speed: 5000,
           }}
           className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
         >
