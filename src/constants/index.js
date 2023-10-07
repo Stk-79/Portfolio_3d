@@ -15,8 +15,11 @@ import {
   git,
   figma,
   docker,
+  ingenious,
   meta,
+  preplabs,
   starbucks,
+  ssoc,
   tesla,
   shopify,
   carrent,
@@ -118,7 +121,7 @@ const experiences = [
   {
     title: "Web Developer",
     company_name: "Social Summer of Code",
-    icon: starbucks,
+    icon: ssoc,
     iconBg: "#383E56",
     date: "August 2022 - September 2022",
     points: [
@@ -131,7 +134,7 @@ const experiences = [
   {
     title: "AWS Training",
     company_name: "Ingenious-Tech",
-    icon: tesla,
+    icon: ingenious,
     iconBg: "#E6DEDD",
     date: "August 2022 - September 2022",
     points: [
@@ -147,7 +150,7 @@ const experiences = [
   {
     title: "MERN Stack Developer",
     company_name: "Preplabs",
-    icon: shopify,
+    icon: preplabs,
     iconBg: "#383E56",
     date: "June 2023 - July 2023",
     points: [

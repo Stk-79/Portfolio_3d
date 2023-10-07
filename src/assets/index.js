@@ -21,8 +21,11 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+import ingenious from "./company/ingenious.png";
 import meta from "./company/meta.png";
+import preplabs from "./company/preplabs.png";
 import shopify from "./company/shopify.png";
+import ssoc from "./company/ssoc.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
@@ -52,9 +55,12 @@ export {
   tailwind,
   typescript,
   threejs,
+  ingenious,
   meta,
+  preplabs,
   shopify,
   starbucks,
+  ssoc,
   tesla,
   carrent,
   jobit,
