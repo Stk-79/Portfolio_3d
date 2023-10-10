@@ -166,10 +166,8 @@ const experiences = [
     company_name: "XYZ",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "To be continued...",
-    ],
+    date: "July 2023 - Present",
+    points: ["To be continued..."],
   },
 ];
 
