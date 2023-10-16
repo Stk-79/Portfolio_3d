@@ -7,27 +7,27 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import aws from "./tech/aws.svg";
+import bootstrap from "./tech/bootstrap.png";
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
+// import expressjs from "./tech/expressjs.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
+// import java from "./tech/java.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
+import mysql from "./tech/mysql.png";
 import nodejs from "./tech/nodejs.png";
+import npm from "./tech/npm.png";
+import postman from "./tech/postman.svg";
+import python from "./tech/python.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import ingenious from "./company/ingenious.png";
-import meta from "./company/meta.png";
 import preplabs from "./company/preplabs.png";
-import shopify from "./company/shopify.png";
 import ssoc from "./company/ssoc.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -42,26 +42,26 @@ export {
   github,
   menu,
   close,
+  aws,
+  bootstrap,
   css,
-  docker,
-  figma,
+  // expressjs,
   git,
   html,
+  // java,
   javascript,
   mongodb,
+  mysql,
   nodejs,
+  npm,
+  postman,
+  python,
   reactjs,
-  redux,
   tailwind,
-  typescript,
   threejs,
   ingenious,
-  meta,
   preplabs,
-  shopify,
-  starbucks,
   ssoc,
-  tesla,
   carrent,
   jobit,
   tripguide,
