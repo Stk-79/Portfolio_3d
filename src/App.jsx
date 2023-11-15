@@ -5,6 +5,7 @@ import {
   Contact,
   Experience,
   Feedbacks,
+  GoTop,
   Hero,
   Navbar,
   Tech,
@@ -29,6 +30,7 @@ const App = () => {
           <Contact></Contact>
           <StarsCanvas></StarsCanvas>
         </div>
+        <GoTop></GoTop>
       </div>
     </BrowserRouter>
   );
