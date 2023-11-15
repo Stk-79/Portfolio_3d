@@ -11,7 +11,7 @@ const GoTop = () => {
   };
 
   const listenScroll = () => {
-    let heighthidden = 250;
+    let heighthidden = 550;
     const winScroll =
       document.body.scrollTop || document.documentElement.scrollTop;
 
@@ -46,13 +46,13 @@ const Wrapper = styled.section`
 
   .top-btn {
     font-size: 2.4rem;
-    width: 6rem;
-    height: 6rem;
-    color: #fff;
+    width: 2rem;
+    height: 2rem;
+    color: #1fc5a8;
     border-radius: 50%;
     position: fixed;
-    bottom: 5rem;
-    right: 5rem;
+    bottom: 3rem;
+    right: 3rem;
     z-index: 999;
     display: flex;
     justify-content: center;
@@ -60,15 +60,15 @@ const Wrapper = styled.section`
     cursor: pointer;
 
     &--icon {
-      animation: gototop 1.2s linear infinite alternate-reverse;
+      animation: gototop 2s linear infinite alternate-reverse;
     }
 
     @keyframes gototop {
       0% {
-        transform: translateY(-0.5rem);
+        transform: translateY(-0.1rem);
       }
       100% {
-        transform: translateY(1rem);
+        transform: translateY(0.1rem);
       }
     }
   }
