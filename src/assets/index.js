@@ -27,7 +27,9 @@ import threejs from "./tech/threejs.svg";
 
 import ingenious from "./company/ingenious.png";
 import preplabs from "./company/preplabs.png";
+import pin from "./company/pin.gif";
 import ssoc from "./company/ssoc.png";
+import tbc from "./company/tbc.gif";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -60,8 +62,10 @@ export {
   tailwind,
   threejs,
   ingenious,
+  pin,
   preplabs,
   ssoc,
+  tbc,
   carrent,
   jobit,
   tripguide,

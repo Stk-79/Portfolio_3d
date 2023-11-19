@@ -22,7 +22,9 @@ import {
   tailwind,
   ingenious,
   preplabs,
+  pin,
   ssoc,
+  tbc,
   carrent,
   jobit,
   tripguide,
@@ -167,11 +169,11 @@ const experiences = [
   },
   {
     title: "Full stack Developer",
-    company_name: "XYZ",
-    icon: ssoc,
+    company_name: "***",
+    icon: tbc,
     iconBg: "#E6DEDD",
-    date: "July 2023 - Present",
-    points: ["To be continued..."],
+    date: "X Month - Y Month",
+    points: ["To Be Continued..."],
   },
 ];
 
