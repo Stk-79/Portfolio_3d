@@ -170,7 +170,7 @@ const experiences = [
   {
     title: "Full stack Developer",
     company_name: "***",
-    icon: tbc,
+    icon: pin,
     iconBg: "#E6DEDD",
     date: "X Month - Y Month",
     points: ["To Be Continued..."],
